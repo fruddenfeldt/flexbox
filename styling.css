@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .signup {
+    margin-left: auto;
+  }
   
   .menu-container {
     color: #fff;
@@ -47,6 +51,7 @@
   .photo-grid-container {
     display: flex;
     justify-content: center;
+    flex: 1;
   }
   
   .photo-grid {
@@ -71,3 +76,23 @@
   .last-item {
     order: -1;
   }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+  }
+
+  .footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+}
+  
